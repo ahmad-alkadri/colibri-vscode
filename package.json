@@ -1,0 +1,21 @@
+{
+  "name": "colibri-vscode",
+  "displayName": "colibri-vscode",
+  "description": "colibri.vim theme ported to Visual Studio Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "colibri",
+        "uiTheme": "vs-dark",
+        "path": "./themes/colibri-color-theme.json"
+      }
+    ]
+  }
+}
