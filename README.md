@@ -1,16 +1,56 @@
-# colibri-vscode README
+# Colibri-Vscode
 
-## Working with Markdown
+## Background
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+This is port of [colibri](https://github.com/archseer/colibri.vim), 
+originally a VIM colorscheme, for Visual Studio Code.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+I first found out about this scheme from [Helix](https://helix-editor.com/). I've been
+using Helix for a couple of months, mostly for coding my 
+[personal projects](https://ahmadalkadri.com/categories/projects/), 
+and I found myself liking it a lot.
 
-## For more information
+Somehow, one day I realized one of the biggest reasons of me 
+liking Helix is not because of its simplicity, keybindings etc.,
+but primarily because of its default colorscheme. It's so colorful
+yet unobstrusive at the same time.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+| ![Really like the colors](https://github.com/ahmad-alkadri/colibri-vscode/assets/22837764/7ec091df-4df3-40f5-a48b-d8b0a7055247) |
+| --- |
+| *Really like the colors* |
 
-**Enjoy!**
+Unfortunately, mostly for work, I had to use VSCode. It's
+simply an IDE that is the most widely used, plus there are
+some extensions that are very useful for collaborative
+works and debugging/testing.
+
+Thus, that's why I decided to port this colorscheme into
+a VSCode theme. 
+
+After a quick digging, I found out that the default theme
+for Helix is [called colibri](https://github.com/helix-editor/helix/discussions/8575). 
+A quick search later and I found the [repo](https://github.com/archseer/colibri.vim).
+
+The repo has the link to a website with the colorschemes
+and their scopes. That made the porting so easy. I felt lucky.
+
+## Installation
+
+Currently, I'm still working out the CD/CI (with Github Actions)
+for automatically publishing the theme into VSCode Marketplace.
+
+In the meantime, you can install this theme on your VSCode by:
+1. copying it into the `<user home>/.vscode/extensions` folder
+2. reopen/restart your VSCode and find it through `View -> Command Palette -> Preferences: Color Theme`
+
+## Contributing
+
+Contributions are welcome! You must've realized that I haven't yet
+ported all colors and scopes. If you'd like to help doing it,
+please don't hesitate!
+
+## License
+
+MIT © 2024 Ahmad Alkadri,
+MIT © 2017 Blaž Hrastnik, 
+see [the license](LICENSE).

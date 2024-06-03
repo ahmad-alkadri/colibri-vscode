@@ -1,5 +1,5 @@
 {
-    "name": "colibri-vscode",
+    "name": "Colibri-Vscode",
     "type": "dark",
     "colors": {
         "editor.background": "#3B224C",
@@ -9,7 +9,12 @@
         "editorLineNumber.foreground": "#716f94",
         "editor.selectionBackground": "#540099",
 		"sideBar.background": "#281733",
-        "editor.inactiveSelectionBackground": "#5e5d7a"
+        "editor.inactiveSelectionBackground": "#5e5d7ae7",
+        "tab.activeBackground": "#3B224C",
+        "tab.hoverBackground": "#452859",
+        "tab.border": "#45285900",
+        "tab.inactiveBackground": "#2f1c3c",
+        "editorGroupHeader.tabsBackground": "#281733"
     },
     "tokenColors": [
         {
@@ -19,7 +24,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#80888a"
+                "foreground": "#697C81"
             }
         },
         {
@@ -37,7 +42,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#f0f0f0"
+                "foreground": "#CCCCCC"
             }
         },
         {
@@ -52,10 +57,27 @@
         {
             "name": "Constants",
             "scope": [
-                "constant.numeric",
                 "constant.language",
                 "constant.character",
-                "constant.escape"
+                "constant.escape",
+            ],
+            "settings": {
+                "foreground": "#DBBFEF"
+            }
+        },
+        {
+            "name": "Constants Numeric",
+            "scope": [
+                "constant.numeric",
+            ],
+            "settings": {
+                "foreground": "#E8DCA0"
+            }
+        },
+        {
+            "name": "Constants Other Symbol",
+            "scope": [
+                "constant.other.symbol",
             ],
             "settings": {
                 "foreground": "#9FF28F"
@@ -98,7 +120,7 @@
                 "punctuation.terminator"
             ],
             "settings": {
-                "foreground": "#b4b4b4"
+                "foreground": "#CCCCCC"
             }
         },
         {
@@ -107,7 +129,7 @@
                 "invalid"
             ],
             "settings": {
-                "foreground": "#f47868",
+                "foreground": "#F47868",
                 "fontStyle": "bold"
             }
         },
@@ -117,7 +139,7 @@
                 "markup.changed"
             ],
             "settings": {
-                "foreground": "#ffcd1c"
+                "foreground": "#FFCD1C"
             }
         }
     ]
