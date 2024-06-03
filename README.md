@@ -5,14 +5,19 @@
 This is port of [colibri](https://github.com/archseer/colibri.vim), 
 originally a VIM colorscheme, for Visual Studio Code.
 
-I first found out about this scheme from Helix. I've been
-using Helix for a couple of months and liking it, mostly for
-coding my personal projects.
+I first found out about this scheme from [Helix](https://helix-editor.com/). I've been
+using Helix for a couple of months, mostly for coding my 
+[personal projects](https://ahmadalkadri.com/categories/projects/), 
+and I found myself liking it a lot.
 
 Somehow, one day I realized one of the biggest reasons of me 
 liking Helix is not because of its simplicity, keybindings etc.,
-but because of its default colorscheme. It's so colorful
+but primarily because of its default colorscheme. It's so colorful
 yet unobstrusive at the same time.
+
+| ![Really like the colors](https://github.com/ahmad-alkadri/colibri-vscode/assets/22837764/7ec091df-4df3-40f5-a48b-d8b0a7055247) |
+| --- |
+| *Really like the colors* |
 
 Unfortunately, mostly for work, I had to use VSCode. It's
 simply an IDE that is the most widely used, plus there are
