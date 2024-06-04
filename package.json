@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "colibri",
+        "label": "colibri-vscode",
         "uiTheme": "vs-dark",
         "path": "./themes/colibri-color-theme.json"
       }
