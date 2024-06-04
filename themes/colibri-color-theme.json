@@ -14,7 +14,11 @@
         "tab.hoverBackground": "#452859",
         "tab.border": "#45285900",
         "tab.inactiveBackground": "#2f1c3c",
-        "editorGroupHeader.tabsBackground": "#281733"
+        "editorGroupHeader.tabsBackground": "#281733",
+        "statusBar.background": "#281733",
+        "statusBarItem.remoteBackground": "#281733",
+        "titleBar.activeBackground": "#3A2C43",
+        "activityBar.background": "#3A2C43"
     },
     "tokenColors": [
         {
