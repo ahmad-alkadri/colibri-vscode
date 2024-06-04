@@ -56,6 +56,10 @@ following the steps below:
 
 4. If all goes well, you should see the theme set for your VSCode as follows:
 
+| ![](https://github.com/ahmad-alkadri/colibri-vscode/assets/22837764/89118a6e-5ecc-43e8-a616-54468a47dcc8) |
+| --- |
+| *The theme applied* |
+
 ## Issues & Contributing
 
 Contributions are welcome! You must've realized that I haven't yet
