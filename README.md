@@ -39,15 +39,29 @@ and their scopes. That made the porting so easy. I felt lucky.
 Currently, I'm still working out the CD/CI (with Github Actions)
 for automatically publishing the theme into VSCode Marketplace.
 
-In the meantime, you can install this theme on your VSCode by:
-1. copying it into the `<user home>/.vscode/extensions` folder
-2. reopen/restart your VSCode and find it through `View -> Command Palette -> Preferences: Color Theme`
+In the meantime, you can install this theme on your VSCode by
+following the steps below:
 
-## Contributing
+1. Cloning the repository:
+    ```bash
+    git clone https://github.com/ahmad-alkadri/colibri-vscode.git
+    ```
+
+2. Copying/moving it into your VSCode's extension folder:
+    ```bash
+    mv colibri-vscode ~/.vscode/extensions/
+    ```
+
+3. Open/reopen/restart your VSCode and go to `View -> Command Palette -> Preferences: Color Theme`, then find `Colibri-Vscode` and click it.
+
+4. If all goes well, you should see the theme set for your VSCode as follows:
+
+## Issues & Contributing
 
 Contributions are welcome! You must've realized that I haven't yet
 ported all colors and scopes. If you'd like to help doing it,
-please don't hesitate!
+please don't hesitate! And of course, if you find any issues, problems,
+bugs, please raise them as Issues in this repo.
 
 ## License
 
